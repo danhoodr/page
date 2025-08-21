@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentation — Dan Hood</title>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand neon-gold" href="main.html">Dan Hood</a>
+  <button id="navToggle" aria-label="menu">&#9776;</button>
+  <nav id="menu">
+    <a href="main.html#play">Rules</a>
+    <a href="star.html">Star</a>
+    <a href="devpage.html">Dev</a>
+  </nav>
+</header>
+<section class="panel narrow">
+  <h1 class="neon-silver">Discord Bot Documentation</h1>
+  <p>A community bot is planned for users. Features include game info, report submission, and limited self-service tools.</p>
+  <h3>Commands</h3>
+  <div class="codeblock">/game</div>
+  <p>Sends an embed with game info, platform availability, and macro keys.</p>
+  <div class="codeblock">/prefix &lt;symbol&gt;</div>
+  <p>Sets a custom prefix per server.</p>
+  <div class="codeblock">,report &lt;userId&gt; &lt;reason&gt;</div>
+  <p>Submits a report to staff review.</p>
+  <h3>Webhooks</h3>
+  <p>Roblox can send event logs to a dedicated channel using a Discord webhook URL. Events include player joins, auto-kicks for young accounts, and staff actions.</p>
+  <h3>API Bridge</h3>
+  <p>An optional API bridge allows actions initiated in Discord to reflect in-game. Authentication is required and actions are rate-limited.</p>
+</section>
+<footer class="footer">
+  <div>© Dan Hood</div>
+  <div class="foot-links">
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
